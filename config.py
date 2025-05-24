@@ -3,8 +3,8 @@ n_runs_per_design = 1
 n_cycles = 500  
 
 top_level_perturbation_specs = {
-    "Positive electrode thickness [m]": ("percentage", 0),
-    "Negative electrode thickness [m]": ("percentage", 0),
+    "Positive electrode thickness [m]": ("percentage", 0.15),
+    "Negative electrode thickness [m]": ("percentage", 0.15),
     "Separator thickness [m]": ("percentage", 0),
     "Positive current collector thickness [m]": ("percentage", 0),
     "Negative current collector thickness [m]": ("percentage", 0),
@@ -21,11 +21,11 @@ top_level_perturbation_specs = {
 }
 
 lower_level_perturbation_specs = {
-    "Positive electrode thickness [m]": ("percentage", 0),
-    "Negative electrode thickness [m]": ("percentage", 0),
-    "Positive electrode porosity": ("percentage", 0),
-    "Negative electrode porosity": ("percentage", 0),
-    "Positive particle radius [m]": ("percentage", 0),
+    "Positive electrode thickness [m]": ("percentage", 0.05),
+    "Negative electrode thickness [m]": ("percentage", 0.05),
+    "Positive electrode porosity": ("percentage", 0.05),
+    "Negative electrode porosity": ("percentage", 0.05),
+    "Positive particle radius [m]": ("percentage", 0.05),
     "Negative particle radius [m]": ("percentage", 0),
     "Positive current collector thickness [m]": ("percentage", 0),
     "Negative current collector thickness [m]": ("percentage", 0),
